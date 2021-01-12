@@ -1,0 +1,38 @@
+
+    
+    .blog-item{
+        background-color: var(--whitecolor);
+    }
+    .blog-item.mg{
+        margin: 0 5%;
+    }
+    .blog-item-img img{
+        width: 100%;
+    }
+    .blog-list{
+        margin: 10px 0;
+    }
+    
+    .blog-list li{
+    display: inline-block;
+    }
+    .blog-title{
+        margin: 20px 0;
+        font-weight: bold;
+    }
+    .blog-desc{
+        line-height: 1.4;
+        color: var(--graycolor);
+    }
+
+    .blog-list-content a{
+        color: var(--maincolor) ;
+        text-transform: capitalize;
+    }
+    
+    .blog-list{
+        margin: 0 5px;
+        color: var(--maincolor);
+        
+    }
+    

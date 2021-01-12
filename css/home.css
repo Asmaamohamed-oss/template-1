@@ -1,0 +1,53 @@
+
+/* 3.1 Home section*/
+.home{
+    height: 100vh;
+    background-image :url(../images/background/background1.webp) ;   
+    background-size: cover; 
+    position: relative;
+    
+}
+
+
+.home-content{
+    position: absolute; /*hero image*/
+    width: 65%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;    
+}
+
+
+.home .title{
+    color: fff;
+    font-size: 3.5 rem;
+}
+    
+.home-desc{
+    margin: 15px 0;
+    color: fff;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.home .btn{
+    width: 160px;
+    padding: 15px 0;
+    border-radius:5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+
+.home .btn-learn{
+    margin-left: 10px;
+    background-color: var(--maincolor);
+    color: fff;
+}
+
+.home .btn-start{
+background-color: fff;
+}

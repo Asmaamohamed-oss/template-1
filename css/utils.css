@@ -1,0 +1,60 @@
+
+.mg-b-5{
+    margin-bottom: 5px;
+}
+
+.mg-b-10{
+margin-bottom: 10px;
+}
+
+.mg-b-15{
+margin-bottom: 15px;
+}
+
+.mg-b-20{
+margin-bottom: 20px;
+}
+
+.mg-b-30{
+    margin-bottom: 30px;
+}
+
+.mg-t-10{
+    margin-top: 10px;
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+.pd-20{
+    padding: 20px;
+}
+
+.width-30{
+    width: 30%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+
+.bg-gray{ /* bg=background*/
+    background-color: #f9f9f9;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+.float{
+    float: left;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}

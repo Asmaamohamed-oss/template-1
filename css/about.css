@@ -1,0 +1,38 @@
+/* 2.3-About section*/
+
+/*.about-content{
+    overflow: hidden;
+    to solve the children problem
+}*/
+
+.about-item{    /* دول الابناء عندهم مشاكل مع float*/ 
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+}
+
+.about-item:hover .about-item-title{
+    color:white;
+}
+
+
+.about-item.mg{
+margin: 0 5%;
+}
+
+.about-item .icons {
+    color: var(--maincolor);
+
+}
+
+.about-item-title{
+    transition: color 0.5s;
+}
+
+.about-item-desc{
+    line-height: 1.5;
+}
+.about-item-link{
+    color: var(--maincolor);
+
+}

@@ -1,0 +1,35 @@
+/* offer section*/
+
+
+/*.offer-content{
+    overflow: hidden;
+}*/
+
+.offer-item{
+    border: 1px solid #f9f9f9;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+    }
+    .offer-item .icon{
+        position:absolute;
+        left:20px;
+        top:35px;
+        color: var(--maincolor);
+    }
+    .offer-item-title{
+        transition: color 0.5s ;
+    }
+    .offer-item:hover .offer-item-title{
+        color: white;
+    }
+    .offer-item-dec{
+        line-height: 1.5;
+        color: var(--maincolor);
+    
+    }
+    
+    .offer-item.mg{
+    margin: 0 5%;
+    
+    }
+    

@@ -1,0 +1,90 @@
+
+/*3.3-portoflio section*/
+
+
+/*.portoflio-content{
+overflow: hidden;
+}*/
+
+.portoflio-item{
+    width: 32%;
+    position: relative;
+}
+.portoflio-item .layer-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity visibility 0.2s;
+}
+
+.portoflio-item:hover .layer-content{
+    opacity: 1;
+    visibility: visible;
+}
+/* hero image*/
+.layer-content .layer-info{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width:80%;
+}
+
+.layer-content .category {
+color: var(--maincolor);
+display: block;
+margin: 10px;
+position: relative;
+top: 10px;
+opacity: 0;
+transition: top 0.5s , opacity 0.5s ;
+transition-delay: 0.2s; /* خاصية الانتظار*/
+}
+.layer-content-title{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s ,opacity 0.5s;
+    transition-delay: 0.3s;
+}
+.layer-content a i{
+    display:inline-block;
+    width:40px;
+    height: 40px;
+    background-color: var(--maincolor);
+    line-height: 40px; /* to center the item*/
+}
+
+.layer-content a {
+    color:var(--whitecolor);
+    position: relative;
+    top: 10px;
+    opacity: 0;
+     transition: top 0.5s ,opacity 0.5s;
+     transition-delay: 0.3s;
+
+}
+
+.portoflio-item:hover .layer-content-title,
+.portoflio-item:hover .layer-content .category,
+.portoflio-item:hover .layer-content a{
+top: 0;
+opacity: 1;
+visibility: visible;
+}
+
+.portoflio-item img{
+    width: 100%;
+}
+
+.portoflio-item.mg{
+margin: 0 2%;
+}

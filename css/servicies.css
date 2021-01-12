@@ -1,0 +1,52 @@
+/* service section*/
+
+.service-item .section-header{
+    text-align: left;
+
+}
+.service-item .section-header .line{
+margin: 0 0 50px 0;
+
+}
+.service-item-desc{
+padding-right:50px;
+color: var(--graycolor);
+font-size: 17px;
+line-height: 1.5;
+}
+
+.service-list li{
+    color:var(--graycolor);
+
+}
+.service-list li i{
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+    width: 30px;
+    height: 30px;
+    padding: 7px  ;
+    border-radius: 50%;
+}
+.service-list li i:hover{
+    color:lightblue;
+}
+.service-item-img img{
+    width: 100%;
+}
+
+.service-bollets{
+    text-align: center;
+}
+.service-bollets li{
+    width: 10px;
+    height: 10px;
+    margin: 10px 7px;
+border-radius: 50%;
+    display: inline-block;
+}
+.service-bollets li.active{
+    background-color: var(--maincolor);
+}
+.service-bollets li:hover{
+    background-color: var(--maincolor);
+}
